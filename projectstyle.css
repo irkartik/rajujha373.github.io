@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	background-color: #004d40;
+	color: #e0f2f1;
+	text-align: center;
+	box-shadow: 0px;
+	text-shadow: 0px;
+}
+
+.main-content{
+	left: 50%;
+}
+
+.row{
+	margin-top: 40px;
+}
+
+.btn{
+	border-radius: 0px;
+	padding: 10px;
+}
+
+.thumbnail{
+	border-radius: 0px;
+	background-color: #e0f2f1;
+}
+.thumbnail:hover {
+    position:relative;
+    border-radius: 5px
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: #26a69a;
+}
